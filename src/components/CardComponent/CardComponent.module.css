@@ -1,0 +1,46 @@
+.cardimgtop{
+    min-height: 400px;
+}
+
+.customGap{
+    gap: 20px;
+}
+
+.readMore{
+    width: 45%;
+    font-size: 11px;
+    background-color: #3dd063;
+    border: none;
+}
+
+.readMore:hover{
+    background-color: #3dd063;
+    transform: scale(1.05);
+}
+
+.readMore:active{
+    outline: none;
+    background-color: #3dd063 !important;
+    
+}
+
+.cardBox{
+    padding: 25px 25px;
+    border-color: gray;
+    position: relative;
+}
+
+.cardTitle{
+    min-height: 50px;
+}
+.text{
+    color: gray;
+}
+
+.heartIcon{
+    font-size: 20px;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    cursor: pointer;
+}
